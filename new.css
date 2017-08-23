@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+}
+#box{
+  display: block;
+  width: 180px;
+  margin: 150px auto;
+  padding: 15px;
+  opacity: 0.5;
+  text-align: center;
+  border: 1px solid blue;
+  /*background: -webkit-linear-gradient(top, indigo, lightblue); */
+    background: -webkit-radial-gradient(center, circle, darkblue 0%, cyan 50%);
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: rgba(120, 110, 110, 0.7) 20px 20px 20px ;
+  /*outline: 4px solid red;*/
+  -webkit-transition: -webkit-transform 1s, background 2s, width 2s, opacity 2s;
+
+
+}
+#text{
+  font: bold 30px Tahoma;
+  text-shadow: rgb(110,110 , 110) 3px 3px 5px;
+  color: white;
+
+}
+#box:hover{
+  -webkit-transform: rotate(360deg);
+  background: darkblue;
+  width: 250px;
+    opacity: 1.0;
+}
